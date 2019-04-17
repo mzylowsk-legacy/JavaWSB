@@ -1,9 +1,14 @@
 #!/bin/bash
 
 tests=(tests
-tiny_both
-tiny_positive
-tiny_negative)
+corner_no_search
+corner_single_false
+corner_single_true
+corner_huge_list_one_search
+corner_huge_list_one_search_with_duplicates
+medium_with_duplicates
+medium_without_duplicates
+huge_list_many_search)
 
 passes=0
 
